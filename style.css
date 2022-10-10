@@ -5,3 +5,13 @@
 body{
     background: skyblue;
 }
+
+.data{
+    margin-top:10px;
+    margin-bottom: 70px;
+}
+
+#ig_feeluy{
+    height: 50px;
+    width: 50px;
+}
