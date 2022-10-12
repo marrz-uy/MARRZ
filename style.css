@@ -3,7 +3,8 @@
 }
 
 body{
-    background: skyblue;
+    background: #f1b963;
+    color: #141010;
 }
 
 .data{
@@ -14,4 +15,15 @@ body{
 #ig_feeluy{
     height: 50px;
     width: 50px;
+}
+
+#title{
+    height: 10px;
+    font-weight: 600;
+    margin-left: 45%;
+}
+
+#img_MARRZ{
+    height: 100px;
+    width: 100px;
 }
