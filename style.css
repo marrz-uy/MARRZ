@@ -23,7 +23,32 @@ body{
     margin-left: 45%;
 }
 
-#img_MARRZ{
-    height: 100px;
-    width: 100px;
+#img_MARRZ_logo{
+    height: 70px;
+    width: 70px;
+    top: 20px;
+    position: absolute;
+}
+
+#img_portrait{
+    margin-top: 70px;
+    margin-left: 345px;
+}
+
+h2{
+    margin-top: 70px;
+}
+
+p{
+    font-weight: bold;
+}
+
+#uy_bleach{
+    height: 300px;
+    width: 900px;
+}
+
+#interest_points{
+    height: 500px;
+    width: 1300px;
 }
