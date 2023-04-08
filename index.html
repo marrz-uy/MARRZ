@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" rel="jsheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="MARRZ.png">
     <title>MARRZ</title>
 </head>
 <body>
-    <div>
+		<div class="container">
+			<div>
         <section class="transition" id="title">
 
             <h1>MARRZ, &nbsp;
@@ -23,29 +27,52 @@
     </div>
     <!--imagen de MARRZ-->
     <img src="MARRZ.png" alt="MARRZ" id="img_MARRZ_logo">
-    <img src="MARRZ-port-width.png" alt="Port" id="img_portrait">
+		<div class="img_portrait">
+			<img src="MARRZ-port-width.png" alt="Port" >
+		</div>
     <h2>Bienvenidos a MARRZ, una organización encargada de desarrollar proyectos de software de alta calidad</h2>
-    <h3>La unión de este equipo se da por la necesidad de realización de un proyecto llamado "FeelUy", del cual explicaremos su propósito a continuación.</h3>
-    <h2>FeelUy</h2>
+		<br>
+    <p>Nuestro enfoque se centra en ayudar a nuestros clientes a optimizar sus operaciones y aumentar su eficiencia, mediante la creación de productos innovadores que satisfagan sus necesidades. Uno de nuestros productos más destacados es FeelUy, un software de gestión de tours que ha revolucionado la forma en que se planifican y ejecutan las actividades turísticas en Uruguay. Con FeelUy, nuestros clientes pueden administrar y controlar fácilmente todas las actividades relacionadas con sus tours, desde la organización de puntos de interés para un camino establecido desde un punto inicial hasta un destino, hasta la puntuación de puntos de interés dentro de la aplicación, todo en una sola plataforma intuitiva. 
+		</p>
+		<p>
+		En MARRZ, nos enorgullece ofrecer soluciones de software excepcionales que ayudan a nuestros clientes a alcanzar sus objetivos empresariales con mayor rapidez y eficacia. Si está buscando soluciones de software de alta calidad, confíe en MARRZ para obtener lo mejor en tecnología de vanguardia y soporte de calidad.
+		</p>
+    <h2>FeelUy, nuestro paciente 0</h2>
     <section class="data">
         <p>FeelUy nace de una necesidad a la hora de emprender un viaje, solo, con familia o amigos, por nuestro hermoso Uruguay.</p>
-        <img src="uy-bleach.jpeg" alt="uy-bleach" id="uy_bleach">
-        <p>Tenemos diversos puntos de tu posible interés</p>
-        <img src="interest-points.jpg" alt="interest-points" id="interest_points">
-        <p>FeelUy agrupa en una sola aplicación web, toda la información necesaria para que puedas organizar y gestionar tu tour por Uruguay.</p>
+				<p>Si deseas visitar el sitio, haz click <a href="https://feeluy.netlify.app/" target="_blank">aquí</a> </p>
+        <img src="feelUy-logo-letras.png" alt="FU" id="FU">
+        <!-- <p>Tenemos diversos puntos de tu posible interés</p> -->
+        <!-- <img src="interest-points.jpg" alt="interest-points" id="interest_points"> -->
+        <!-- <p>FeelUy agrupa en una sola aplicación web, toda la información necesaria para que puedas organizar y gestionar tu tour por Uruguay.</p>
         <img src="tours.jpg" alt="tours">
         <p>En principio, está enfocado en Montevideo, pero continuamos trabajando día a día para expandirnos al resto del territorio uruguayo, y quien sabe, tal vez un día, al resto del mundo.</p>
         <img src="FEELUY.png" alt="FeelUy">
-        <p>Accede al sitio web de <a href="https://feeluy.netlify.app/">FeelUy</a></p>
+        <p>Accede al sitio web de <a href="https://feeluy.netlify.app/">FeelUy</a></p> -->
     </section>
     <footer>
-        <h3>Redes Sociales</h3>
-        <p>Siguenos en Instagram, para estar al tanto de el proceso de nuestro gran proyecto de cabezera.</p>
+				<div>
+					<h3>Redes Sociales</h3>
+        <p>Síguenos en Instagram, para estar al tanto del proceso de nuestro gran proyecto de cabecera.</p>
         <h4>FeelUy</h4>
-        <a href="https://www.instagram.com/feeluruguay/">
-            <img src="instagram.png" alt="Instagram de FeelUy" id="ig_feeluy">
+        <a href="https://www.instagram.com/feeluruguay/" target="_blank">
+            <img src="instagram.png" alt="Instagram de FeelUy" class="redes_feeluy">
         </a>
+				<!-- <p>También nos encontramos en Facebook</p>
+				<h4></h4>
+				<a href="https://www.instagram.com/feeluruguay/">
+					<img src="facebook.png" alt="Facebook de FeelUy" class="redes_feeluy">
+			</a> -->
+				</div>
+				<br>
+        <div>
+					<h3>Contactos</h3>
+						<h4>Mail</h4>
+						<p>marrz2022@gmail.com</p>
+				</div>
     </footer>
+		</div>
+    
     
 </body>
 </html>

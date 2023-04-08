@@ -3,8 +3,8 @@
 }
 
 body{
-    background: #f1b963;
-    color: #141010;
+    background: #00499d;
+    color: rgba(255 , 255 , 255);
 }
 
 .data{
@@ -12,7 +12,7 @@ body{
     margin-bottom: 70px;
 }
 
-#ig_feeluy{
+.redes_feeluy{
     height: 50px;
     width: 50px;
 }
@@ -20,19 +20,21 @@ body{
 #title{
     height: 10px;
     font-weight: 600;
-    margin-left: 45%;
+    margin-left: 35%;
 }
 
 #img_MARRZ_logo{
     height: 70px;
     width: 70px;
     top: 20px;
+    left: 10px;
     position: absolute;
 }
 
-#img_portrait{
-    margin-top: 70px;
+.img_portrait{
+    margin-top: 100px;
     margin-left: 345px;
+    margin-left: 10px;
 }
 
 h2{
@@ -43,9 +45,9 @@ p{
     font-weight: bold;
 }
 
-#uy_bleach{
-    height: 300px;
-    width: 900px;
+#FU{
+    height: 20rem;
+    width: 20rem;
 }
 
 #interest_points{

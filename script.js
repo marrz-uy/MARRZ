@@ -23,7 +23,7 @@ const words = [
 ];
 //colors for the individual words
 const colors = [
-    "#141010"
+    "rgba(255 , 255 , 255)"
 ];
 
 //amount of letters
