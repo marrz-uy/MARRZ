@@ -18,8 +18,14 @@ body{
 .redes_feeluy{
     height: 3.5%;
     width: 3.5%;
+    margin-left: 1%;
     /* height: 50px;
     width: 50px; */
+}
+
+.facebook{
+    height: 5%;
+    width: 5%;
 }
 
 #title{
@@ -90,4 +96,8 @@ p{
 .container{
     display:flex;
     flex-direction: column;
+}
+
+.facebook_title{
+    margin-top:10px;
 }
